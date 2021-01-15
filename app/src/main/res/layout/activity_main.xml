@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:hint="Enter your Roll"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:hint="Enter your name"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/t3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:hint="Enter your Course"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/t4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:hint="Enter your Duration"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="process"
+        android:text="Add to database"
+        android:textSize="25sp"
+        android:layout_marginBottom="40dp"/>
+
+</LinearLayout>
